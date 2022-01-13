@@ -13,5 +13,5 @@ export const transferEvents = api.get(`?module=account
 &offset=500
 &startblock=1
 &endblock=999999999
-&sort=asc
+&sort=desc
 &apikey=${REACT_APP_API_KEY}`);

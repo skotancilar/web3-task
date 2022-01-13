@@ -9,7 +9,7 @@ export const tnxList = api.get(`?module=account
 &address=${REACT_APP_ADDRESS}
 &startblock=0
 &endblock=99999999
-&page=1
+&page=5
 &offset=500
-&sort=asc
+&sort=desc
 &apikey=${REACT_APP_API_KEY}`);
